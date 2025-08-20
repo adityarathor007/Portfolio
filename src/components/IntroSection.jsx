@@ -20,7 +20,7 @@ export const IntroSection = () => {
                 </p>
 
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-                    <a href="https://drive.google.com/file/d/1o6byc01-NlXegQk-Kv2WXoVcJ-CLnrjV/view?usp=sharing" className='cosmic-button'>Explore My Journey</a>
+                    <a href="#about" className='cosmic-button'>Explore My Journey</a>
                 </div>
 
             </div>

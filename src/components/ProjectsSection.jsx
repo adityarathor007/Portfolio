@@ -9,7 +9,7 @@ export const ProjectsSection = () =>{
 
 
   return (
-    <section id="projects" className="py-24 px-4 relative">
+    <section id="projects" className="py-40 px-4 relative">
       <div className="container mx-auto max-8xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
           My <span className="text-primary"> Projects </span>
@@ -20,15 +20,21 @@ export const ProjectsSection = () =>{
           {projects.map((project, key) => (
             <div
               key={key}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover cursor-pointer"
+              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover cursor-pointer
+             transition-transform duration-300 hover:scale-105 hover:shadow-lg"
               onClick={() => setSelectedProject(project)}
             >
-              <div className="h-48 overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100
+                  flex items-center justify-center text-white text-lg font-medium
+                  transition-opacity duration-100">
+                    Click to view
+                </div>
               </div>
 
               <div className="p-6">
@@ -43,7 +49,8 @@ export const ProjectsSection = () =>{
                   ))} */}
                 </div>
 
-                <h3 className="text-xl font-semibold">{project.title}</h3>
+                <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
+{project.title}</h3>
               </div>
             </div>
           ))}

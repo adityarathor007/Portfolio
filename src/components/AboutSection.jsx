@@ -1,8 +1,8 @@
-import { BriefcaseBusiness, School, Code, User, Github, Linkedin, Mail } from "lucide-react";
+import { BriefcaseBusiness, School, Code, User, Github, Linkedin, Mail, FileUser } from "lucide-react";
 
 
 export const AboutSection=()=>{
-    return <section id="about" className="py-24 px-4 relative">
+    return <section id="about" className="pt-60 pb-20 px-4 relative">
             {" "}
             <div className="container mx-auto max-w-8xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
@@ -51,6 +51,14 @@ export const AboutSection=()=>{
       >
         <Mail className="w-6 h-6" />
       </a>
+
+      <a
+        href="https://drive.google.com/file/d/1qXUawgA7GnaK3-DV4aAj2BmEZu-65fFR/view?usp=sharing"
+        className="p-3 rounded-full bg-cyan-600 text-white hover:bg-cyan-700 transition"
+      >
+        <FileUser className="w-6 h-6" />
+      </a>
+
     </div>
     </div>
 
@@ -90,7 +98,7 @@ export const AboutSection=()=>{
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Samsung Electronics</h4>
                   <p className="text-lg text-muted-foreground">
-                    Worked as an R&D intern on sensors present in samsung wearables for activity tracking   
+                    Worked as an R&D intern on sensors present in samsung wearables for activity tracking
                   </p>
                 </div>
                 </div>
