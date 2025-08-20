@@ -1,0 +1,36 @@
+import { ArrowDown } from "lucide-react";
+
+export const IntroSection = () => {
+  return (
+    <section
+      id="intro"
+      className="relative min-h-screen flex flex-col items-center justify-center px-4"
+    >
+         <div className="container max-w-4xl mx-auto text-center z-10">
+            <div className="space-y-6">
+                <h1 className="text-4xl md:text-6xl font-bold">
+                        <span className="bg-gradient-to-r from-blue-400 to-blue-500 bg-clip-text text-transparent opacity-0 animate-fade-in">Hi, I'm </span>
+                        <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent opacity-0 animate-fade-in-delay-1">Aditya </span>
+                        <span className="bg-gradient-to-r from-purple-500 to-orange-500 bg-clip-text text-transparent opacity-0 animate-fade-in-delay-2">Rathor</span>
+
+                </h1>
+
+                <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+                    I'm a web developer and AI enthusiast who sees technology as an infinite universe waiting to be explored. My mission that I choose to accept is to build, innovate and solve challenges that push the boundaries of AI and software — one star at a time.
+                </p>
+
+                <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+                    <a href="https://drive.google.com/file/d/1o6byc01-NlXegQk-Kv2WXoVcJ-CLnrjV/view?usp=sharing" className='cosmic-button'>Explore My Journey</a>
+                </div>
+
+            </div>
+         </div>
+
+         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+        <span className="text-sm text-muted-foreground mb-2"> Scroll </span>
+        <ArrowDown className="h-5 w-5 text-primary" />
+      </div>
+
+    </section>
+  )
+}
