@@ -16,7 +16,7 @@ export const AboutSection=()=>{
 
     <div className="flex justify-center md:justify-center">
       <img
-        src="src/assets/i1.png" // put your image in public/ folder for cleaner import
+        src="/self.png" // put your image in public/ folder for cleaner import
         alt="My Profile"
         className="w-48 h-48 md:w-64 md:h-64 rounded-full shadow-xl border-4 border-primary object-cover"
       />
