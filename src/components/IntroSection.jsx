@@ -16,7 +16,7 @@ export const IntroSection = () => {
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    I'm a web developer and AI enthusiast who sees technology as an infinite universe waiting to be explored. My mission that I choose to accept is to build, innovate and solve challenges that push the boundaries of AI and software — one star at a time.
+                    I'm a software developer and AI enthusiast who sees technology as an infinite universe waiting to be explored. My mission that I choose to accept is to build, innovate and solve challenges that push the boundaries of AI and software and become of real world use — one star at a time.
                 </p>
 
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">

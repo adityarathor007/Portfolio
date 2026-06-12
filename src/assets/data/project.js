@@ -1,16 +1,26 @@
 export const projects = [
-    {
+      {
         id:1,
-        title:"AutoEval of Handwritten True/False",
-        description: "Built an automated evaluation pipeline for True/False answer sheets using Doctr OCR, leveraging table structure extraction for precise answer mapping.Enhanced system accuracy by handling rotation, skew, and noisy inputs, improving Mean Absolute Error (MAE) from 0.70 (PaddleOCR baseline) to 0.25. This model was presented in NCVPRIPG-2024 and secured 3rd place out of 125 teams.",
-        image: "/projects/autoeval_tf_2.png",
+        title:"Aaharup",
+        description: "Built a full-stack AI meal planning app for Indian households where users plan daily meals across a weekly calendar, with AI-powered dish suggestions using RAG on 6k+ recipes",
+        image: "/projects/aaharup.png",
         tags: ["",],
-        demoUrl: "https://drive.google.com/file/d/14B62lWIYgO7HBX7AI60f9Pw-h59ofPwZ/view?usp=sharing",
-        githubUrl: "https://github.com/adityarathor007/AutoHandwrittenEvalChallenge2024",
+        demoUrl: "https://drive.google.com/file/d/14FiPziw5oqN6aQv2WnMLLw6g9HS8_cuu/view",
+        githubUrl: "https://github.com/adityarathor007/aaharup-app",
     },
 
-      {
-        id:2,
+    {
+      id:2,
+      title:"Smart 108",
+      description: "A multi-platform emergency response and real-time dispatch ecosystem designed to bridge the gap between between citizens in distress and field responders (Ambulance, Fire Brigade, and Police).",
+      image: "/projects/Smart_108.png",
+      tags: ["",],
+      demoUrl: "https://drive.google.com/file/d/1ZnNPO6qoaRO31SkL8mG2_KEgWHwfy-gs/view",
+      githubUrl: "https://github.com/adityarathor007/Smart_108",
+  },
+    
+    {
+        id:3,
         title:"Deep Soccer",
         description: "Developed a computer vision framework using YOLO for real-time object detection, tracking, pitch landmark detection, and 2D projection via homography transformation. Visualized key gameplay insights including player control areas, ball trajectories, and ball possession analysis for tactical and performance evaluation.",
         image: "/projects/deep_soccer.png",
@@ -19,7 +29,7 @@ export const projects = [
         githubUrl: "https://github.com/adityarathor007/DeepSoccer",
     },
     {
-        id:3,
+        id:2,
         title:"SpaceLink",
         description: "Developed a real-time screen sharing system with 60 FPS transmission using mss and client-side decoding via Pygame, ensuring smooth and efficient visualization.Implemented secure client authentication with dynamic passcodes and enabled remote mouse control of the source system using PyAutoGUI.",
         image: "/projects/spacelink.png",
@@ -27,6 +37,16 @@ export const projects = [
         demoUrl: "https://www.youtube.com/watch?v=XTnWsB9Afn4",
         githubUrl: "https://github.com/adityarathor007/SpaceLink",
     },
+
+    {
+      id:3,
+      title:"AutoEval of Handwritten True/False",
+      description: "Built an automated evaluation pipeline for True/False answer sheets using Doctr OCR, leveraging table structure extraction for precise answer mapping.Enhanced system accuracy by handling rotation, skew, and noisy inputs, improving Mean Absolute Error (MAE) from 0.70 (PaddleOCR baseline) to 0.25. This model was presented in NCVPRIPG-2024 and secured 3rd place out of 125 teams.",
+      image: "/projects/autoeval_tf_2.png",
+      tags: ["",],
+      demoUrl: "https://drive.google.com/file/d/14B62lWIYgO7HBX7AI60f9Pw-h59ofPwZ/view?usp=sharing",
+      githubUrl: "https://github.com/adityarathor007/AutoHandwrittenEvalChallenge2024",
+  },
 
     {
         id:4,
@@ -48,17 +68,17 @@ export const projects = [
         githubUrl: "https://github.com/adityarathor007/RobustParabel",
     },
 
+    //   {
+    //     id:6,
+    //     title:"TRS Arxiv Website",
+    //     description: "Builded a workflow for paper submission and revieweing with role-based portals for authors, reviewers, and editors, streamlining the feedback process.Implemented secure user authentication using JWT tokens with email verification and profile section for tracking submissions status.",
+    //     image: "/projects/trs_arxiv.png",
+    //     tags: ["",],
+    //     demoUrl: "https://youtu.be/8qe59qJgjE0",
+    //     githubUrl: "https://github.com/devlup-labs/TRS-archive",
+    // },
       {
         id:6,
-        title:"TRS Arxiv Website",
-        description: "Builded a workflow for paper submission and revieweing with role-based portals for authors, reviewers, and editors, streamlining the feedback process.Implemented secure user authentication using JWT tokens with email verification and profile section for tracking submissions status.",
-        image: "/projects/trs_arxiv.png",
-        tags: ["",],
-        demoUrl: "https://youtu.be/8qe59qJgjE0",
-        githubUrl: "https://github.com/devlup-labs/TRS-archive",
-    },
-      {
-        id:7,
         title:"Document Recognition and Translation",
         description: "Builded a pipeline to recognize and preserve text formatting (font style & size) in PDFs during language translation by combining CNN features, SVM classification, and regression models.Automated translation and reconstruction of multilingual PDFs by predicting font properties and positioning words using bounding boxes, ensuring formatting consistency across languages.",
         image: "/projects/document_trans.png",
@@ -67,7 +87,7 @@ export const projects = [
         githubUrl: "https://github.com/adirathor-dev/DocumentTranslation",
     },
     {
-        id:8,
+        id:7,
         title:"Face_recoginition",
         description: "Trained multiple classifiers on CNN and HOG features over the LFW dataset, and combined them using a weighted majority voting ensemble for robust face recognition. Built a similarity predictor model using an ANN that compares feature vectors of two input images to determine whether they belong to the same person.",
         image: "/projects/face_recoginition.png",

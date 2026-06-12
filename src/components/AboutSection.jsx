@@ -53,7 +53,7 @@ export const AboutSection=()=>{
       </a>
 
       <a
-        href="https://drive.google.com/file/d/1qXUawgA7GnaK3-DV4aAj2BmEZu-65fFR/view?usp=sharing"
+        href="https://drive.google.com/file/d/13Ysgf8UPewGMCHklU2hH0Rsx8X2d91nJ/view?usp=drive_link"
         className="p-3 rounded-full bg-cyan-600 text-white hover:bg-cyan-700 transition"
       >
         <FileUser className="w-6 h-6" />
@@ -71,20 +71,7 @@ export const AboutSection=()=>{
                 <div className="text-left">
                   <h4 className="font-semibold text-xl">IIT Jodhpur</h4>
                   <p className="text-lg text-muted-foreground">
-                    4th year undergrad in artificial intelligence and data science
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-xl">VL2G Lab</h4>
-                  <p className="text-lg text-muted-foreground">
-                    Under mentorship of Dr.Anand Mishra working on text-aware noise removal of real-world images and previously worked on the script identification module of IndicPhotoOCR, part of the Bhashini Project.
+                    Completed B.tech in artificial intelligence and data science
                   </p>
                 </div>
               </div>
@@ -103,6 +90,20 @@ export const AboutSection=()=>{
                 </div>
                 </div>
                 </div>
+                <div className="gradient-border p-6 card-hover">
+                <div className="flex items-start gap-4">
+                  <div className="p-3 rounded-full bg-primary/10">
+                    <User className="h-6 w-6 text-primary" />
+                  </div>
+                  <div className="text-left">
+                    <h4 className="font-semibold text-xl">Hobbies</h4>
+                    <p className="text-lg text-muted-foreground">
+                      {/* Under mentorship of Dr.Anand Mishra working on text-aware noise removal of real-world images and previously worked on the script identification module of IndicPhotoOCR, part of the Bhashini Project. */}
+                      Besides developing I enjoy activites that help me stay balanced and creative. Passionate about fitness and maintain healthy lifestyle through gym, expressing myself through piano and playing football. I also have keen interest in styling stuff including myself :)
+                    </p>
+                  </div>
+                </div>
+              </div>
                 </div>
         </div>
         </div>
